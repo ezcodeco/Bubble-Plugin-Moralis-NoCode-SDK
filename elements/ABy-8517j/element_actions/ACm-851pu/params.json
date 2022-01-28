@@ -1,0 +1,12 @@
+{
+    "caption": "Get JSON",
+    "fields": {
+        "ACn": {
+            "caption": "IPFS hash",
+            "editor": "DynamicValue",
+            "name": "ipfs_hash",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

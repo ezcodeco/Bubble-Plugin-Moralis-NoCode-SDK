@@ -1,0 +1,11 @@
+{
+    "caption": "Get Native Balance",
+    "fields": {
+        "ABY": {
+            "caption": "Returns native (ETH,BNB,MATIC depending on chain) balance for a specific address",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        }
+    }
+}

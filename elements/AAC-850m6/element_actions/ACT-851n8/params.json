@@ -1,0 +1,21 @@
+{
+    "caption": "Get Transaction Confirmations",
+    "fields": {
+        "ACU": {
+            "caption": "Transaction Hash",
+            "editor": "DynamicValue",
+            "name": "transaction_hash",
+            "rank": 0,
+            "value": "text"
+        },
+        "ACV": {
+            "caption": "Chain",
+            "doc": "If not provided will be used the currently connected chain.",
+            "editor": "DynamicValue",
+            "name": "chain",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

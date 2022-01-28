@@ -1,0 +1,21 @@
+{
+    "caption": "Get ERC20 Token MetaData ",
+    "fields": {
+        "ABO": {
+            "caption": "Contract Address",
+            "editor": "DynamicValue",
+            "name": "contractAddress",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABR": {
+            "caption": "Chain",
+            "doc": "Chain ID. Optional",
+            "editor": "DynamicValue",
+            "name": "chain",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

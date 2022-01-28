@@ -1,0 +1,20 @@
+{
+    "caption": "Get NFT Lowest Price",
+    "fields": {
+        "ACH": {
+            "caption": "Contract Address",
+            "editor": "DynamicValue",
+            "name": "contract_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "ACI": {
+            "caption": "Chain",
+            "editor": "DynamicValue",
+            "name": "chain",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

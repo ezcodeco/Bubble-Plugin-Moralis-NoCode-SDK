@@ -1,0 +1,22 @@
+{
+    "caption": "Login with WalletConnect",
+    "fields": {
+        "AAk": {
+            "caption": "Sign message",
+            "editor": "DynamicValue",
+            "name": "sign_message",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "AAl": {
+            "caption": "Chain ID",
+            "doc": "Connect to a specific chain ID. Optional",
+            "editor": "DynamicValue",
+            "name": "chain_id",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

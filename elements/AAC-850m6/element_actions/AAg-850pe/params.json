@@ -1,0 +1,13 @@
+{
+    "caption": "Login with MetaMask",
+    "fields": {
+        "AAi": {
+            "caption": "Sign message",
+            "editor": "DynamicValue",
+            "name": "sign_message",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

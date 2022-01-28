@@ -1,0 +1,22 @@
+{
+    "caption": "Get NFT Metadata",
+    "fields": {
+        "ABV": {
+            "caption": "Contract Address",
+            "doc": "",
+            "editor": "DynamicValue",
+            "name": "contractAddress",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABW": {
+            "caption": "Chain",
+            "doc": "Chain ID (Optional)",
+            "editor": "DynamicValue",
+            "name": "chain",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

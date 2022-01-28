@@ -1,0 +1,11 @@
+{
+    "caption": "Unsubscribe",
+    "fields": {
+        "ADX": {
+            "caption": "Will unsubscribe from subscribed events",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        }
+    }
+}

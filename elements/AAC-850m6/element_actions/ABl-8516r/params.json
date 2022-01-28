@@ -1,0 +1,21 @@
+{
+    "caption": "Get all NFTs in Wallet",
+    "fields": {
+        "ABm": {
+            "caption": "Chain",
+            "doc": "If not provided, will be used the currently connected chain.",
+            "editor": "DynamicValue",
+            "name": "chain",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "ABn": {
+            "caption": "Wallet",
+            "editor": "DynamicValue",
+            "name": "wallet",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

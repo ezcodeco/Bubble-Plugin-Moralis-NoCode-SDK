@@ -1,0 +1,31 @@
+{
+    "caption": "Get all NFT from Contract",
+    "fields": {
+        "ABs": {
+            "caption": "Token Address",
+            "doc": "Address of the contract",
+            "editor": "DynamicValue",
+            "name": "token_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABt": {
+            "caption": "Chain",
+            "doc": "If not provided will be used the currently connected chain.",
+            "editor": "DynamicValue",
+            "name": "chain",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "ABu": {
+            "caption": "Address",
+            "doc": "Filter by owner of the token. Optional",
+            "editor": "DynamicValue",
+            "name": "address",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

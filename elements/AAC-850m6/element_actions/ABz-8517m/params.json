@@ -1,0 +1,30 @@
+{
+    "caption": "Get Token Price",
+    "fields": {
+        "ACA": {
+            "caption": "Token Address",
+            "editor": "DynamicValue",
+            "name": "token_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "ACB": {
+            "caption": "Exchange",
+            "doc": "Optional.  The factory name or address of the token exchange. Possible exchanges, for different chains are: ETH mainnet: uniswap-v3, sushiswap, uniswap-v2. BSC mainnet: pancakeswap-v2, pancakeswap-v1. Polygon mainnet: quickswap. If no exchange is specified, all exchanges are checked",
+            "editor": "DynamicValue",
+            "name": "exchange",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "ACC": {
+            "caption": "Chain",
+            "doc": "If not provided will be used the currently connected chain.",
+            "editor": "DynamicValue",
+            "name": "chain",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

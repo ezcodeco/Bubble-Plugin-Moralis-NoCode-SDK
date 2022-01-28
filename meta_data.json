@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "analytics",
+        "1": "web scraping",
+        "2": "payment",
+        "3": "ecommerce",
+        "4": "technical"
+    },
+    "demo_page": "https://moralis-nocode.bubbleapps.io/version-test",
+    "description": "The ultimate Web3 tool now without code!\n\nAll the main features of the Moralis SDK integrated in one plugin.\n\n#Main Features:\n- Login with MetaMask or WalletConnect\n- Send ERC20 or Native Token\n- Send NFT\n- Get ERC20 Token MetaData \n- Get NFT Metadata\n- Get balance of token\n- Get all NFTs in Wallet\n- Get all NFT from Contract\n- Get Token Price (Price from DEX like Pancakeswap, Uniswap etc.)\n- Get NFT Lowest Price\n- Get Transaction Confirmations\n- Run Contract Function\n\n# IPFS:\n- Upload JSON Object\n- Upload Base64 File\n- Select and Upload File\n- Get JSON\n\n# Sync - Subscribe to wallet Transactions\n- Tokens transactions\n- NFT transactions\n\nDemo page:\nhttps://moralis-nocode.bubbleapps.io/version-test",
+    "image": "//s3.amazonaws.com/appforest_uf/f1643196413268x501787344895618240/moralis_logo-2.svg",
+    "license": "open_source",
+    "link": "https://docs.moralis.io/moralis-server/getting-started",
+    "name": "Moralis NoCode SDK",
+    "plugin_instructions": "# Get Started\n1) First thing, you need 2 keys to run the SDK, you will get for free on moralis.io \n\"App ID\" and \"Server URL\"\nGet them and insert in the plugin settings.\n2) Add the plugin element Moralis SDK on the page\n3) To access all feature, first thing you need to do is to login the user, use the \"Login with MetaMask\" or \"Login with WalletConnect\" plugin action.\n4) Now all Moralis SDK features are available to you.\n\n\n# Supported chains\nThe plugin supports any chain that is listed on the official documentation page:\nhttps://docs.moralis.io/moralis-server/web3-sdk/intro#supported-chains"
+}

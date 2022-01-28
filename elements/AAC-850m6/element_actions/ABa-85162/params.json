@@ -1,0 +1,21 @@
+{
+    "caption": "Get all tokens in Wallet",
+    "fields": {
+        "ABb": {
+            "caption": "Wallet Address",
+            "editor": "DynamicValue",
+            "name": "wallet_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABc": {
+            "caption": "Chain",
+            "doc": "If not provided, will be used the currently connected chain.",
+            "editor": "DynamicValue",
+            "name": "chain",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

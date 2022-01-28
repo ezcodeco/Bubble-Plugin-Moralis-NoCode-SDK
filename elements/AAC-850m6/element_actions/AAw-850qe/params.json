@@ -1,0 +1,19 @@
+{
+    "caption": "Send native Token",
+    "fields": {
+        "AAz": {
+            "caption": "Amount",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 0,
+            "value": "number"
+        },
+        "ABA": {
+            "caption": "Receiver",
+            "editor": "DynamicValue",
+            "name": "receiver",
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

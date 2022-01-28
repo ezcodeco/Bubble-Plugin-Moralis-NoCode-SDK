@@ -1,0 +1,36 @@
+{
+    "caption": "Send ERC20 Token",
+    "fields": {
+        "ABE": {
+            "caption": "Amount",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABF": {
+            "caption": "Contract Address",
+            "doc": "Token Smart Contract",
+            "editor": "DynamicValue",
+            "name": "contractAddress",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABG": {
+            "caption": "Receiver",
+            "editor": "DynamicValue",
+            "name": "receiver",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABH": {
+            "caption": "Decimals",
+            "doc": "Optional. Decimals that token has, if you don't know, leave it empty.",
+            "editor": "DynamicValue",
+            "name": "decimals",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        }
+    }
+}

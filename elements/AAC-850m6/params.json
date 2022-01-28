@@ -1,0 +1,211 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 25,
+        "width": 25
+    },
+    "display": "Moralis SDK",
+    "events": {
+        "AAj": {
+            "caption": "User Rejected",
+            "name": "user_rejected"
+        },
+        "AAv": {
+            "caption": "Logged out",
+            "name": "logged_out"
+        },
+        "ABD": {
+            "caption": "Transaction Sent",
+            "name": "transaction_sent"
+        },
+        "ABS": {
+            "caption": "ERC20 Metadata is Ready",
+            "name": "erc20_metadata_is_ready"
+        },
+        "ABT": {
+            "caption": "NFT Metadata is Ready",
+            "name": "nft_metadata_is_ready"
+        },
+        "ABZ": {
+            "caption": "Native Balance",
+            "name": "native_balance"
+        },
+        "ABf": {
+            "caption": "Get Wallet Tokens Ready",
+            "name": "get_wallet_tokens_ready"
+        },
+        "ABk": {
+            "caption": "Get Balance of Token Ready",
+            "name": "get_balance_of_token_ready"
+        },
+        "ABq": {
+            "caption": "Get All Wallet NFTs Ready",
+            "name": "get_all_wallet_nfts_ready"
+        },
+        "ABx": {
+            "caption": "Get All NFTs in contract Ready",
+            "name": "get_all_nfts_in_contract_ready"
+        },
+        "ACF": {
+            "caption": "Get Token Price Ready",
+            "name": "get_token_price_ready"
+        },
+        "ACQ": {
+            "caption": "Run Contract Functions Finished",
+            "name": "run_contract_functions_finished"
+        },
+        "ACS": {
+            "caption": "Get NFT Lowest Price Done",
+            "name": "get_nft_lowest_price_done"
+        },
+        "ACq": {
+            "caption": "Error while sending transaction",
+            "name": "error_while_sending_transaction"
+        },
+        "ACs": {
+            "caption": "Unable to get Token Price",
+            "name": "unable_to_get_token_price"
+        },
+        "ACt": {
+            "caption": "Unable to get NFT Price",
+            "name": "unable_to_get_nft_price"
+        }
+    },
+    "icon": "ion-settings",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAr": {
+            "caption": "Is User Logged in",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "is_user_logged_in",
+            "value": "boolean"
+        },
+        "AAs": {
+            "caption": "Connected Wallet Address",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "connected_wallet_address",
+            "value": "text"
+        },
+        "AAu": {
+            "caption": "Connected to Chain ID",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "connected_to_chain_id",
+            "value": "text"
+        },
+        "ABC": {
+            "caption": "Transaction Hash",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "transaction_hash",
+            "value": "text"
+        },
+        "ABP": {
+            "caption": "ERC20 Metadata",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "erc20_metadata",
+            "value": "text"
+        },
+        "ABQ": {
+            "caption": "NFT Metadata",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "nft_metadata",
+            "value": "text"
+        },
+        "ABe": {
+            "caption": "Wallet Tokens",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "wallet_tokens",
+            "value": "text"
+        },
+        "ABj": {
+            "caption": "Balance of Token",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "balance_of_token",
+            "value": "text"
+        },
+        "ABo": {
+            "caption": "Total NFTs in wallet",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "total_nfts_in_wallet",
+            "value": "number"
+        },
+        "ABp": {
+            "caption": "All Wallet NFTs",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "all_wallet_nfts",
+            "value": "text"
+        },
+        "ABw": {
+            "caption": "All NFTs from Contract",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "all_nfts_from_contract",
+            "value": "text"
+        },
+        "ACE": {
+            "caption": "Token Price USD",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "token_price_usd",
+            "value": "number"
+        },
+        "ACP": {
+            "caption": "Contract Functions Result",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "contract_functions_result",
+            "value": "text"
+        },
+        "ACR": {
+            "caption": "NFT Lowest Price",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "nft_lowest_price",
+            "value": "text"
+        },
+        "ACW": {
+            "caption": "Transaction Confirmations",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "transaction_confirmations",
+            "value": "number"
+        },
+        "ACr": {
+            "caption": "Native Balance",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "native_balance",
+            "value": "text"
+        }
+    }
+}

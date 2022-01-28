@@ -1,0 +1,45 @@
+{
+    "caption": "Send NFT",
+    "fields": {
+        "ABI": {
+            "caption": "Type",
+            "default_val": "ERC721",
+            "doc": "NFT token type",
+            "editor": "Dropdown",
+            "name": "type",
+            "options": "ERC1155,ERC721",
+            "rank": 0
+        },
+        "ABJ": {
+            "caption": "Contract Address",
+            "doc": "NFT Smart Contract",
+            "editor": "DynamicValue",
+            "name": "contractAddress",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABK": {
+            "caption": "Receiver",
+            "editor": "DynamicValue",
+            "name": "receiver",
+            "rank": 3,
+            "value": "text"
+        },
+        "ABL": {
+            "caption": "Token ID",
+            "editor": "DynamicValue",
+            "name": "tokenId",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABM": {
+            "caption": "Amount",
+            "default_val": 1,
+            "doc": "More than 1 only for ERC1155 tokens.",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 4,
+            "value": "number"
+        }
+    }
+}

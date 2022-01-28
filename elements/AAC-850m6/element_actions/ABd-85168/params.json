@@ -1,0 +1,30 @@
+{
+    "caption": "Get Balance Of Token",
+    "fields": {
+        "ABg": {
+            "caption": "Wallet Address",
+            "default_val": "",
+            "editor": "DynamicValue",
+            "name": "wallet_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABh": {
+            "caption": "Token Address",
+            "default_val": "",
+            "editor": "DynamicValue",
+            "name": "token_address",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABi": {
+            "caption": "Chain",
+            "doc": "If not provided, will be used the currently connected chain.",
+            "editor": "DynamicValue",
+            "name": "chain",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "caption": "Subscribe to Transactions Events",
+    "fields": {
+        "ADJ": {
+            "caption": "Subscribe to connected wallet events",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        },
+        "ADK": {
+            "caption": "Event type",
+            "default_val": "Eth Transactions",
+            "doc": "Eth Transactions is for native token transactions (depending on the chain, for example BNB on Binance Smart Chain)",
+            "editor": "Dropdown",
+            "name": "event_type",
+            "options": "Eth Transactions,Token Transfers,NFT Transfers",
+            "rank": 1
+        },
+        "ADL": {
+            "caption": "Chain Name",
+            "default_val": "Eth",
+            "doc": "Use the prefix: Eth, Bsc, Matic, Erd",
+            "editor": "DynamicValue",
+            "name": "chain_name",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

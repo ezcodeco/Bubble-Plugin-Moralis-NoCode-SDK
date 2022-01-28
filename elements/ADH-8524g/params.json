@@ -1,0 +1,57 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 25,
+        "width": 25
+    },
+    "display": "Moralis Sync",
+    "events": {
+        "ADP": {
+            "caption": "New Transaction",
+            "name": "new_transaction"
+        },
+        "ADY": {
+            "caption": "Subscribed",
+            "name": "subscribed"
+        }
+    },
+    "icon": "ion-android-sync",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "ADM": {
+            "caption": "Transaction Hash",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "transaction_hash",
+            "value": "text"
+        },
+        "ADN": {
+            "caption": "Transferred To Wallet",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "transfer_to_wallet",
+            "value": "text"
+        },
+        "ADO": {
+            "caption": "Transferred Token Address",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "transfer_token_address",
+            "value": "text"
+        },
+        "ADZ": {
+            "caption": "Is Subscribed",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "is_subscribed",
+            "value": "boolean"
+        }
+    }
+}

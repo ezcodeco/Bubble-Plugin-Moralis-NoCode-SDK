@@ -1,0 +1,24 @@
+{
+    "assets": {
+        "AAD": {
+            "name": "logo",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1642591025230x801195473020596400/1f9d9-2642.png"
+        },
+        "AAo": {
+            "name": "moralis_sdj",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1642596457353x417600291370729900/moralis_sdk.js"
+        },
+        "AAq": {
+            "name": "sdk3",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1642596709726x105033350231614980/moralis_sdk3.js"
+        },
+        "ACd": {
+            "name": "moralis_sdk1.1",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643120666797x888756011150918800/moralis.1.1.js"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 2,
+        "use_jquery": true
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "caption": "Run Contract Function",
+    "fields": {
+        "ACK": {
+            "caption": "Contract Address",
+            "editor": "DynamicValue",
+            "name": "contract_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "ACL": {
+            "caption": "Function Name",
+            "editor": "DynamicValue",
+            "name": "function_name",
+            "rank": 1,
+            "value": "text"
+        },
+        "ACM": {
+            "caption": "Contract ABI",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "contract_abi",
+            "rank": 3,
+            "value": "text"
+        },
+        "ACN": {
+            "caption": "Parameters",
+            "doc": "Json object with your parameters, for example: {owner: \"0x1...2\", spender: \"0x1...2\"}",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "parameters",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "ACO": {
+            "caption": "Chain",
+            "doc": "If not provided will be used the currently connected chain.",
+            "editor": "DynamicValue",
+            "name": "chain",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

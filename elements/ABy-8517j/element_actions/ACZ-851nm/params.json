@@ -1,0 +1,20 @@
+{
+    "caption": "Upload Base64 File",
+    "fields": {
+        "ACg": {
+            "caption": "Base64",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "base64",
+            "rank": 1,
+            "value": "text"
+        },
+        "ACh": {
+            "caption": "File name",
+            "editor": "DynamicValue",
+            "name": "file_name",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}
